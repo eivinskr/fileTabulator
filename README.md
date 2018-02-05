@@ -9,6 +9,7 @@ The script:
 4. Creates a table with relative path from folder of choice, filename, description and hashvalue. 
 5. Writes the table to LaTeX, hiding the row with hashvalues. 
 
+## Screenshots
 fileTabulator.py: 
 ![alt text](https://github.com/eivinskr/fileTabulator/blob/master/images/Screenshot%20fileTabulator.png?raw=true "Screenshot of fileTabulator.py")
 

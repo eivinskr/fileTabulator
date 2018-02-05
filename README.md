@@ -1,5 +1,5 @@
 # fileTabulator
-Create a LaTeX-table with persistent description of files. Even if files are moved, renamed or changed. Automatically adds new files and remove deleted files from table. 
+Create a LaTeX-table with persistent description of files. Even if files are moved, renamed or changed. Automatically add new files and remove deleted files from table. 
 
 ## How does it work?
 The script: 

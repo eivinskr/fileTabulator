@@ -3,7 +3,7 @@ Create a LaTeX-table with persistent description of files. Even if files are mov
 
 ## How does it work?
 The script: 
-1. Parses a folder of choise recursively, storing the filepath and MD5-hash of each file. It ignores empty files and gives a warning of duplicate files (same hash).  
+1. Parses a folder of choise recursively, storing the filepath and MD5-hash of each file. It ignores empty files, ".DS-store"-files and gives a warning of duplicate files (same hash).  
 2. Parses the existing output-file (if any) for previous filepaths and MD5-hashes. 
 3. Categorizes hashes in sets of added, unchanged, moved, deleted or changed files. 
 4. Creates a table with relative path from folder of choice, filename, description and hashvalue. 

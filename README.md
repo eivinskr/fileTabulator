@@ -19,3 +19,4 @@ FileTable.tex:
 
 ## Dependencies
  - md5 (pip install md5)
+- tabulate (pip install tabulate)

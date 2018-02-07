@@ -1,0 +1,37 @@
+\documentclass{report}
+
+
+\usepackage{tabu,booktabs}
+\usepackage[table]{xcolor}
+% Allows colors
+\usepackage{color}
+% Allows PDF-file to be shown. 
+\usepackage{pdfpages}
+% Allows supressing table position
+\usepackage{float}
+% Allow table without hyphenation
+\usepackage{array}
+% Allow landscape pages
+\usepackage{pdflscape}
+% Allow page-break table
+\usepackage{longtable,tabu}
+% Allow Hide column type in table
+\usepackage{array}
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+
+\definecolor{lightgrey}{gray}{0.9}
+
+\begin{document}
+\title{File list}
+\author{Eivind Skjelmo Kristiansen}
+\maketitle
+
+\tableofcontents*
+\cleardoublepage
+
+\listoftables
+\cleardoublepage
+
+\input{sections/FileTable}
+
+\end{document}

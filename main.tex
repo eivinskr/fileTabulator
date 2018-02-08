@@ -17,9 +17,11 @@
 \usepackage{longtable,tabu}
 % Allow Hide column type in table
 \usepackage{array}
-\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
-
+%\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup\cellcolor{white}}c<{\egroup}}
+%\newcolumntype{H}{>{\iffalse}c<{\fi}@{}}
 \definecolor{lightgrey}{gray}{0.9}
+
 
 \begin{document}
 \title{File list}

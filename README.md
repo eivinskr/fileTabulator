@@ -18,5 +18,5 @@ FileTable.tex:
 ![alt text](https://github.com/eivinskr/fileTabulator/blob/master/images/Screenshot%20FileTable.png?raw=true "Screenshot of FileTable.tex")
 
 ## Dependencies
- - md5 (pip install md5)
+- md5sum (brew install md5sha1sum)
 - tabulate (pip install tabulate)

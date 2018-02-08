@@ -1,7 +1,5 @@
 \documentclass{report}
 
-
-\usepackage{tabu,booktabs}
 \usepackage[table]{xcolor}
 % Allows colors
 \usepackage{color}
@@ -14,11 +12,11 @@
 % Allow landscape pages
 \usepackage{pdflscape}
 % Allow page-break table
-\usepackage{longtable,tabu}
+\usepackage{booktabs, longtable, tabu}
 % Allow Hide column type in table
 \usepackage{array}
 %\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
-\newcolumntype{H}{>{\setbox0=\hbox\bgroup\cellcolor{white}}c<{\egroup}}
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}}
 %\newcolumntype{H}{>{\iffalse}c<{\fi}@{}}
 \definecolor{lightgrey}{gray}{0.9}
 

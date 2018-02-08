@@ -3,25 +3,26 @@
 % Please only edit descriptions
 \begin{landscape}
 \centering
+\tabulinesep=_3pt^3pt
 \begin{longtabu} to \linewidth{|X[1,l]|X[2,l]|X[1,l]H|}
-\taburowcolors[1]2{lightgrey..white} 
-\toprule
-\caption{File List}\label{tab:file_list}\\
-\hline
-\textbf{Path} & \textbf{Filename}  & \textbf{Description} & \textbf{Hash} \\
-\hline
-\endfirsthead
-\multicolumn{4}{l}
-{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
-\hline
+\caption{File List}
+\label{tab:file_list}\\
+\tabucline[1pt]{1-}
+
 \textbf{Path} & \textbf{Filename} & \textbf{Description} & \textbf{Hash} \\
-\hline
+\tabucline[0.5pt]{1-}
+\endfirsthead
+\caption{\tablename -- \textit{Continued from previous page}} \\
+\tabucline[0.5pt]{1-}
+\rowfont [c]{\bfseries}
+Path & Filename & Description & Hash \\
+\tabucline[0.5pt]{1-}
 \endhead
-\hline \multicolumn{4}{l}{\textit{Continued on next page}} \\\endfoot
-\hline
+\tabucline[0.5pt]{1-} \multicolumn{4}{l}{\textit{Continued on next page}} \\\endfoot
+\tabucline[1pt]{1-}
 \endlastfoot
 \taburowcolors[1]2{lightgrey..white}
-             & testFile1.txt &                                                            & 33918e2384aee6ec78588db2ea6eacc6 \\
- /testFolder & testFile2.txt & Try to move, change or edit this file! I'll still be here! & a3f84bf2a1f0f0b599d51c089c99091e \\
+             & testFile1.txt &  & 33918e2384aee6ec78588db2ea6eacc6 \\
+ /testFolder & testFile2.txt &  & a3f84bf2a1f0f0b599d51c089c99091e \\
 \end{longtabu}
 \end{landscape}
